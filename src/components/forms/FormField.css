@@ -1,0 +1,55 @@
+.form-field * {
+  display: block;
+}
+
+.form-field {
+  margin: 55px 0;
+}
+
+/* .form-field + .form-field {
+  margin: 50px 0;
+} */
+
+.form-field--input {
+  margin-top: 0px;
+
+  border: 0;
+  border-bottom: 1px solid #777;
+
+  padding: 8px 0;
+
+  width: 100%;
+}
+
+.form-field--input:focus {
+  /* border: #E35D54 3px solid; */
+  transition: 0.2s;
+  border-bottom: 1px solid #000;
+  outline:none;
+}
+
+.form-field--help {
+  position: absolute;
+  margin-top: 4px;
+  font-size: 10px;
+  color: #E35D54;
+}
+
+.form-field--label {
+  font-size: 16px;
+
+  position: absolute;
+  width: 100%;
+  transition: 0.2s;
+
+  margin-top: -30px;
+
+  pointer-events: none;
+}
+
+.form-field--input:focus + .form-field--label, 
+.form-field--input:not([value=""]) + .form-field--label,
+.form-field--input[type="date"] + .form-field--label{
+  margin-top: -50px;
+  font-size: 12px;
+}

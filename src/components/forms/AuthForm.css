@@ -1,0 +1,69 @@
+.auth-form--title {
+  margin: 30px 0 15px;
+  text-align: center;
+}
+
+.auth-form--link {
+  margin-top: 15px;
+  color: #333;
+}
+
+.auth-form--link:hover {
+  color: #777;
+}
+
+.auth-form--link:active {
+  color: #AAA;
+}
+
+.auth-form--submit {
+  float: right;
+  width: 96px;
+  height: 42px;
+
+  background: none;
+  border: #777 1px solid;
+  border-radius: 4px;
+}
+
+.auth-form--submit:hover {
+  color: #3d90e3;
+  border-color: #3d90e3;
+}
+
+.auth-form--submit:active {
+  color: #fff;
+  border-color: #fff;
+  background-color: #3d90e3;
+}
+
+.auth-form--submit:disabled {
+  color: #FFF;
+  border-color: #AAA;
+}
+
+.auth-form--spinner {
+  right: 70px;
+  margin-top: 12px;
+  position: absolute;
+}
+
+.auth-form--error {
+  position: absolute;
+
+  width: auto;
+
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+  color: #E35D54;
+}
+
+.auth-form--bottom {
+  text-align: center;
+  margin-top: 35px;
+  font-size: 10;
+}
