@@ -1,3 +1,7 @@
+# Authentication Service Frontend
+See backend at [https://github.com/mrk-m/auth-service-backend](https://github.com/mrk-m/auth-service-backend).
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
